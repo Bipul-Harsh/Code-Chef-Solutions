@@ -1,12 +1,9 @@
-T = int(input())
-while(T):
-    n = int(input())
+for _ in range(int(input())):
+    input()
     lst = set(input())
-    if(len(lst) == 3):
+    if('I' in lst):
+        print("INDIAN")
+    elif('Y' in lst):
+        print("NOT INDIAN")
+    else:
         print("NOT SURE")
-    else: 
-        if('Y' in lst):
-            print("NOT INDIAN")
-        else: 
-            print("INDIAN")
-    T -= 1
